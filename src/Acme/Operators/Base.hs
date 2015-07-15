@@ -110,6 +110,8 @@ f <$!> m = do
   let z = f x
   z `seq` return z
 
+infixl 1 &
+
 -- | '&' is a reverse application operator.  This provides notational
 -- convenience.  Its precedence is one higher than that of the forward
 -- application operator '$', which allows '&' to be nested in '$'.
