@@ -1,0 +1,17 @@
+name: acme-operators
+version: 0.1.0.0
+synopsis: Operators of base, all in one place!
+description: Have you ever been wondering about some magic lookin operator. Here are all operators in base package. Not so many.
+author: Oleg Grenrus <oleg.grenrus@iki.fi>
+maintainer: Oleg Grenrus <oleg.grenrus@iki.fi>
+license: BSD3
+github: phadej/acme-operators
+category: Documentation
+
+ghc-options: -Wall
+
+dependencies:
+  - base >= 4.7 && <4.9
+
+library:
+  source-dirs: src
