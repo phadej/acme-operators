@@ -77,6 +77,15 @@ module Acme.Operators.Base (
   (++),
   (!!),
   (\\),
+  -- * Numeric
+  (+),
+  (*),
+  (-),
+  (/),
+  -- ** Expontentials
+  (^),
+  (^^),
+  (**),
   -- * Type level trickery
   -- ** Data.Type.Equality
   (:~:),
