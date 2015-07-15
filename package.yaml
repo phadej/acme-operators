@@ -1,5 +1,5 @@
 name: acme-operators
-version: 0.1.0.0
+version: 0.2.0.0
 synopsis: Operators of base, all in one place!
 description: Have you ever been wondering about some magic lookin operator. Here are all operators in base package. Not so many.
 author: Oleg Grenrus <oleg.grenrus@iki.fi>
